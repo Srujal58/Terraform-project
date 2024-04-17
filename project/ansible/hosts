@@ -1,0 +1,11 @@
+[linux]
+n01570815-vm1.ukwest.cloudapp.azure.com
+n01570815-vm2.ukwest.cloudapp.azure.com
+n01570815-vm3.ukwest.cloudapp.azure.com
+
+[os:children]
+linux
+
+[linux:vars]
+ansible_user=srujal
+ansible_connection=ssh
